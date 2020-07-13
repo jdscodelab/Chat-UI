@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="ChatUI.Custom_Controls.RoundProfileButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatUI.Custom_Controls"
+             x:Name="_profileButton"
+             mc:Ignorable="d" Height="50" Width="50">
+    <UserControl.Resources>
+        <BitmapImage x:Key="DefaultImage" UriSource="/assets/noimage.png"/>
+
+        <Style x:Key="AvailabilityStyle" TargetType="{x:Type Ellipse}">
+            <Setter Property="StrokeThickness" Value="4"/>
+            <Setter Property="Stroke" Value="{Binding ElementName=_profileButton, Path=StrokeBrush,FallbackValue=WhiteSmoke,TargetNullValue=WhiteSmoke}"/>
+            <Setter Property="Width" Value="15"/>
+            <Setter Property="Height" Value="15"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Fill" Value="Green"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=_profileButton, Path=IsOnline,FallbackValue=False,TargetNullValue=False}" Value="False">
+                    <Setter Property="Fill" Value="#B7B5B8"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Viewbox Stretch="Fill">
+    <Button>
+        <Button.Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="MinHeight" Value="50"/>
+                <Setter Property="MinWidth" Value="50"/>
+                <Setter Property="Focusable" Value="False"/>
+            </Style>
+        </Button.Style>
+        <Button.Template>
+            <ControlTemplate TargetType="{x:Type Button}">
+                <Grid>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <ImageBrush Stretch="UniformToFill" ImageSource="{Binding ElementName=_profileButton, Path=ProfileImageSource,FallbackValue={StaticResource DefaultImage},TargetNullValue={StaticResource DefaultImage}}"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Style="{StaticResource AvailabilityStyle}"/>
+                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+            </ControlTemplate>
+        </Button.Template>
+        </Button>
+    </Viewbox>
+</UserControl>

@@ -1,0 +1,25 @@
+C:\Users\shaik\source\repos\ChatUI\bin\Debug\ChatUI.exe.config
+C:\Users\shaik\source\repos\ChatUI\bin\Debug\ChatUI.exe
+C:\Users\shaik\source\repos\ChatUI\bin\Debug\ChatUI.pdb
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\ChatList.g.cs
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\Conversation.g.cs
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\MenuListControl.g.cs
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\RoundProfileButton.g.cs
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\MainWindow.g.cs
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\App.g.cs
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI_MarkupCompile.cache
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI_MarkupCompile.lref
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\App.baml
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\ChatList.baml
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\Conversation.baml
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\MenuListControl.baml
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\Custom Controls\RoundProfileButton.baml
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\MainWindow.baml
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI.g.resources
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI.Properties.Resources.resources
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI.csproj.GenerateResource.cache
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI.csproj.CoreCompileInputs.cache
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI.exe
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI.pdb
+C:\Users\shaik\source\repos\ChatUI\obj\Debug\ChatUI.csprojAssemblyReference.cache
